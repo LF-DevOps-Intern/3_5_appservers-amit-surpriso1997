@@ -33,7 +33,7 @@ These are the following steps for deploying a django app in a gunicorn server:
 
   ```
 
-![Created and actiaved venv](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/created-a-virtual-environment.png)
+  ![Created and actiaved venv](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/created-a-virtual-environment.png)
 
 3. Install django and gunicorn packages in the venv :
 
@@ -44,8 +44,8 @@ These are the following steps for deploying a django app in a gunicorn server:
 
    ```
 
-![django](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/isntalled%20django-with-pip.png)
-![gunicorn](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/installed-gunicorn.png)
+  ![django](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/isntalled%20django-with-pip.png)
+  ![gunicorn](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/installed-gunicorn.png)
 
 
 
@@ -56,7 +56,7 @@ These are the following steps for deploying a django app in a gunicorn server:
    django-admin startproject demo
 
    ```
-![django project demo](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/created-demo-django-project.png)
+  ![django project demo](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/created-demo-django-project.png)
 
 
 5. Create gunicorn_config.py file as a configuration file of gunicorn server :
@@ -68,7 +68,7 @@ These are the following steps for deploying a django app in a gunicorn server:
    workers = '3'
 
    ```
-![gunicorn_config.py file](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/gunicorn-config-file.png)
+  ![gunicorn_config.py file](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/gunicorn-config-file.png)
 
 
 6. Edited the settings.py file and add the add host’s IP address(192.168.1.66:8089) in the hosts array
@@ -84,6 +84,6 @@ These are the following steps for deploying a django app in a gunicorn server:
 
 where -c stands for config file 
 
-![runnign gunicorn command]( https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/tree/main/djangp-gunicorn/screenshots)
+  ![running gunicorn command](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/tree/main/djangp-gunicorn/screenshots)
 
-![testing in the browser](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/testing-django-in-port-8089.png)
+  ![testing in the browser](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/testing-django-in-port-8089.png)
