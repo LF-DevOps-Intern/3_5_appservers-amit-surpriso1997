@@ -84,6 +84,6 @@ These are the following steps for deploying a django app in a gunicorn server:
 
 where -c stands for config file 
 
-  ![running gunicorn command](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/tree/main/djangp-gunicorn/screenshots)
+  ![running gunicorn command](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/running-inport-8089.png)
 
   ![testing in the browser](https://github.com/LF-DevOps-Intern/3_5_appservers-amit-surpriso1997/blob/main/djangp-gunicorn/screenshots/testing-django-in-port-8089.png)
